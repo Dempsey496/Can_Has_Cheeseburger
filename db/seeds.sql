@@ -5,3 +5,4 @@
 INSERT INTO burgers (burger_name, devoured)
 VALUES ("Triple-Bypass Burger", false), ("Big Buford", false), ("Impossible Whopper", true);
 
+SELECT  * FROM burgers;

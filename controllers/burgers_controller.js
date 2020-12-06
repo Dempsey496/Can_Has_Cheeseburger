@@ -7,44 +7,44 @@ const burger = require("../models/burger.js");
 
 
 
-// Create all our routes and set up logic within those routes where required.
+// GET route
 router.get("/", (req, res) => {
   burger.all(data => {
     res.render("index", { burgers: data });
   });
 });
 
+// POST route
 router.post("/api/burgers", (req, res) => {
-  burger.create(
-    ["burger_name", "devoured"],
+  console.log("New burger POST request: ", req.body)
+  burger.create(["burger_name", "devoured"],
     [req.body.burger_name, req.body.devoured],
     result => {
       // Send back the ID of the new quote
       res.json({ id: result.insertId });
-    }
-  );
+    });
 });
 
+//PUT route
 router.put("/api/burgers/:id", (req, res) => {
+  console.log("Incoming UPDATE request: ", req.body);
+
   let condition = "id = " + req.params.id;
 
-  console.log("condition", condition);
+  console.log("UPDATE condition: ", condition);
 
-  burger.update(
-    {
+  burger.update({
       devoured: req.body.devoured,
-    },
-    condition,
-    result => {
+    }, condition, result => {
       if (result.changedRows == 0) {
         // If no rows were changed, then the ID must not exist, so 404
         return res.status(404).end();
       } else {
         res.status(200).end();
       }
-    }
-  );
+    });
 });
+
 
 router.delete("/api/burgers/:id", (req, res) => {
   let condition = "id = " + req.params.id;
@@ -60,7 +60,7 @@ router.delete("/api/burgers/:id", (req, res) => {
 });
 
 router.get("*", (req, res) => {
-  res.redirect("/");
+  res.redirect("/")
 });
 
 module.exports = router;
