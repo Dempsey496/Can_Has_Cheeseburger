@@ -5,7 +5,7 @@
 
 ***
 ## Installation 
-* No installation necessary, simply follow link to view and use site:
+* No installation necessary, simply follow link to view and use site: https://serene-shore-27495.herokuapp.com/
 
 ***
 ## Table of Contents
@@ -37,7 +37,7 @@ Application should be deployed on Heroku with a JAWSDB addon to utilize MySQL da
 ![Burgersite Burgers Screenshot](./public/assets/img/burger_devour_app.png)
 ![Burgersite Submit Burgers Screenshot](./public/assets/img/burger_devour_app2.png)
 ***
-[Navigating the Site](https://drive.google.com/file/d/1Spr2Da2Hp9svHxlmuhcO8B2TUZmPvnuG/view)
+[Navigating the Site on Heroku](https://drive.google.com/file/d/1OzP92-I6l_5MVjulVa6OL0XRR3ku-N9q/view)
 ***
 
 <a name="tech"></a>
