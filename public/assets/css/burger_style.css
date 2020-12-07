@@ -1,20 +1,85 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+ul {
+  color: rgb(43, 41, 41);
+  font-size: 35px;
+  padding: 40px;
+  margin: 20px;
+  background: #a17d4e;
+  margin-bottom: 20px;
+}
+
+.create-form {
+  color: rgb(43, 41, 41);
+  font-size: 35px;
+  padding: 30px;
+  margin: 20px;
+  background: #a17d4e;
+  margin-bottom: 20px;
+}
+
+.all-burgers {
+  color: burlywood;
+}
+
+.container {
+  color: rgb(236, 225, 225);
+  background-color: rgba(80, 52, 7, 0.897);
+  padding: 10px;
+  padding-left: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.delete-burger {
+  background-color: rgb(184, 60, 60);
+  color: rgb(236, 225, 225);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.change-devoured {
+  background-color: rgb(60, 105, 60);
+  color: rgb(236, 225, 225);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.form-button {
+  background-color: rgb(71, 71, 190);
+  color: rgb(236, 225, 225);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px;
+}
+
+#burger {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
