@@ -34,10 +34,10 @@ Application should be deployed on Heroku with a JAWSDB addon to utilize MySQL da
 <a name="scrshot"></a>
 
 ## Screenshots
-![Burgerpage Submitting](./assets/noteTakerApp.png)
-![Burgerpage Devouring](./assets/noteTakerApp2.png)
+![Burgersite Burgers Screenshot](./assets/img/burger_devour_app.png)
+![Burgersite Submit Burgers Screenshot](./assets/img/burger_devour_app2.png)
 ***
-[Site through localhost](https://drive.google.com/file/d/1Spr2Da2Hp9svHxlmuhcO8B2TUZmPvnuG/view)
+[Navigating the Site](https://drive.google.com/file/d/1Spr2Da2Hp9svHxlmuhcO8B2TUZmPvnuG/view)
 ***
 
 <a name="tech"></a>
